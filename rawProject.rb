@@ -1,4 +1,4 @@
-#arr = IO.readlines("/home/rehan.rasha/Desktop/introduction/therap.log.ms-2.2013-10-21")
+#arr = IO.readlines("/home/rehan.rasha/Desktop/introduction/r.log.ms-2.2013-10-21")
 #puts arr[0]
 #puts arr[3]
 puts "Enter the URI:"
@@ -22,7 +22,7 @@ for hour  in 1..24
   array_time[hour]=0
   array_frequency[hour]=0
 end
-File.foreach("/home/rehan.rasha/Desktop/introduction/therap.log.ms-2.2013-10-21").with_index do |line, index|
+File.foreach("/home/rehan.rasha/Desktop/introduction/r.log.ms-2.2013-10-21").with_index do |line, index|
 #puts "#{index}: #{line}" if line =~ /PROFILER/ && /\/ma\/logbook\/view/
 #puts line.index('time=') if line =~ /PROFILER/ && /\/ma\/logbook\/view/
 j=0
