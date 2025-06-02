@@ -17,7 +17,7 @@ def array_initialize
 end
 
 def logfile_parsing
-  File.foreach("/home/rehan.rasha/Desktop/introduction/therap.log.ms-2.2013-10-21").with_index do |line, index|
+  File.foreach("/home/rehan.rasha/Desktop/introduction/r.log.ms-2.2013-10-21").with_index do |line, index|
 
   total_get_time=0
   total_post_time=0
